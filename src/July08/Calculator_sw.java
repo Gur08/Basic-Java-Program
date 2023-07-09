@@ -7,8 +7,8 @@ public class Calculator_sw {
     public static void main(String[] args) {
         System.out.println("Welcome to my calculator");
         System.out.println("Enter 1 for addition");
-        System.out.println("Enter 2 for Subraction");
-        System.out.println("Enter 3 for Divison");
+        System.out.println("Enter 2 for Subtraction");
+        System.out.println("Enter 3 for Division");
         System.out.println("Enter 4 for Multiplication");
         System.out.println("Enter 5 for Modulus");
         System.out.println("Enter your input");

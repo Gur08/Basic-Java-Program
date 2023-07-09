@@ -32,15 +32,15 @@ public class Calculator {
             int num5 = scanner.nextInt();
             System.out.println("Enter the second number");
             int num6 = scanner.nextInt();
-            int mult = num5+num6;
-            System.out.println("Mutiplication of two number "+ mult);
+            int mult = num5*num6;
+            System.out.println("Multiplication of two number "+ mult);
         }else if (input ==4){
             System.out.println("Enter first number");
             int num7 = scanner.nextInt();
             System.out.println("Enter the second number");
             int num8 = scanner.nextInt();
-            int div = num7+num8;
-            System.out.println("divison of two number "+ div);
+            int div = num7/num8;
+            System.out.println("division of two number "+ div);
         }else{
             System.out.println("invalid input");
         }
