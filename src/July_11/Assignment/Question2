@@ -1,0 +1,38 @@
+public class Addition {
+    public static void main(String[] args){
+Scanner input =new.Scanner(System.in);
+char in;
+String loop = "Yes"
+While(!loop.equals("No")){
+System.out.printlm("Welcome to our website");
+System.out.printlm("Please enter any Alphabet");
+in=input.next().charAt(0);
+int counter=0;
+switch(in){
+case a:
+case e:
+case i:
+case o:
+case u:
+case A:
+case E:
+case I:
+case O:
+case U:
+counter++;
+break;
+}
+if(counter==1){
+System.out.println("Enter Character"+in+"is Vowel");
+}
+else if ((in>="a" && in<="z")||(in>="A" && in<="A")){
+System.out.println("Enter Character"+in+"is Consonant");
+}else{
+System.out.println("Enter Character is an Alphabet");
+}
+System.out.println("Do you want still want to continue");
+System.out.println("Please Enter Yes or No");
+loop=input.next();
+}
+}
+}
