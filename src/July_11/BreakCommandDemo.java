@@ -2,7 +2,7 @@ package July_11;
 
 import java.util.Scanner;
 
-public class ForLoopDemo {
+public class BreakCommandDemo {
     public static void main(String[] args) {
         //break -it will break the for loop
         // continue-- skip the current iteration
