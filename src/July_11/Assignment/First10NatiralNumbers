@@ -1,0 +1,10 @@
+public class Addition {
+    public static void main(String[] args){
+int in=1;
+System.out.println("The first 10 Natural Numbers are");
+While(in<=10){
+System.out.println(in);
+i++;
+}
+}
+}
