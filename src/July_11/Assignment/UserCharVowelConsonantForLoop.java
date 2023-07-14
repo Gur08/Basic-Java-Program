@@ -6,7 +6,7 @@ public class UserCharVowelConsonantForLoop {
     public static void main(String[] args) {
         for (String input = "Yes";(!input.equals("No")&&!input.equals("no"));){
             System.out.println("Welcome to our Alphabet Identification site ");
-            System.out.println("Please Enter a Single Character");
+            System.out.println("Please Enter a Single Character to check whether it Consonant or Vowel");
             Scanner sc=new Scanner(System.in);
             char user = sc.next().charAt(0);
             int i=0;

@@ -6,9 +6,13 @@ public class ThreeUserInputPrintGreatestOneDoWhileLoop {
         Scanner input = new Scanner(System.in);
         String d = "Yes";
         do {
-            System.out.println("Please Enter Three Number");
+            System.out.println("Welcome to the world of numbers");
+            System.out.println("Please Enter Three Number to check the greatest among them");
+            System.out.println("Please Enter First Number");
                 int a = input.nextInt();
+            System.out.println("Please Enter Second Number");
                 int b = input.nextInt();
+            System.out.println("Please Enter Third Number");
                 int c = input.nextInt();
                 if (a > b && a > c) {
                     System.out.println("Greatest among three = " + a);
