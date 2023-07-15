@@ -29,7 +29,7 @@ public class ThreeUserInputPrintGreatestOneDoWhileLoop {
                 System.out.println("Do you still want to continue");
             System.out.println("Press any key to continue and No to exist");
                 d = input.next();
-            }while(!d.equals("No")&&!d.equals("no"));
+            }while(!d.equals("no") && !d.equals("No"));
 
         }
     }
