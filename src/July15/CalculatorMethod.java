@@ -1,8 +1,11 @@
 package July15;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class CalculatorMethod {
+
     public static void caculator(){
         System.out.println("Welcome to my calculator");
         Scanner scanner =new Scanner(System.in);
