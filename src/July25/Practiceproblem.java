@@ -8,6 +8,6 @@ public class Practiceproblem {
         System.out.println(s1.trim());
         int num=10;
         String s =String.valueOf(num);
-        System.out.println(s+" "+s);
+        System.out.println(s+s);
     }
 }

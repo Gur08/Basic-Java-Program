@@ -24,8 +24,11 @@ public class SmallestNumber {
             }
         }
         System.out.println("Descending order of array is");
-        for (int c=0;c<input;c++){
-            System.out.print(arr[c]+" ");
+//        for (int c=0;c<input;c++){
+//            System.out.print(arr[c]+" ");
+//        }
+        for (int r:arr) {
+            System.out.print(r+" ");
         }
         System.out.println(" ");
         System.out.println("Largest number among array is "+arr[0]);

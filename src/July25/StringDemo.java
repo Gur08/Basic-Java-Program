@@ -15,7 +15,7 @@ public class StringDemo {
 
         // as we create a string using new keyword it creates new object even if it same with different memory address
         // if we create the string as s1="Gur" then it will refer to same if string if the word is same
-        // the object can never be change it's reference can be changed  (its immutable)
+        // the object can never be change its reference can be changed  (its immutable)
 
     }
 

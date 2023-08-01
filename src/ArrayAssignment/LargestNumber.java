@@ -25,8 +25,11 @@ public class LargestNumber {
             }
         }
         System.out.println("Ascending order is");
-        for (int b=0;b<x;b++){
-            System.out.print(arr[b]+" ");
+//        for (int b=0;b<x;b++){
+//            System.out.print(arr[b]+" ");
+//        }
+        for (int n:arr) {
+            System.out.print(n+" ");
         }
         System.out.println(" ");
         System.out.println("Largest number in array is "+arr[x-1]);

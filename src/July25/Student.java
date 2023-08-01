@@ -4,9 +4,10 @@ public class Student {
     String name;
     int age;
 
+
     @Override
     public String toString() {
-        return "Employees{" +
+        return "Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
@@ -16,7 +17,7 @@ public class Student {
         Student student =new Student();
         student.name ="Peter";
         student.age=25;
-     //   System.out.println(student.age+" "+student.name);
+     //  System.out.println(student.age+" "+student.name);
         System.out.println(student);
     }
 }
