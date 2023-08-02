@@ -1,0 +1,52 @@
+we can create a private constructor
+singleton class ---> imp --- interview question
+
+yes to return single value
+
+
+Objects Oriented paradigm -OOPs
+c - procedural programing
+c++ - object oriented
+
+Class and Object
+
+Java doesn't provide multiple inheritance but that can we done through interfaces
+
+1.Inheritance ---> to inherit properties from parent
+Class A { // parent class
+// properties
+}
+Class B {
+properties from A
+
+child
+}
+// inheritance is for code reuse-ability
+
+2.Polymorphism --->
+
+poly - many
+morphins - forms
+
+1. Thing have mutiple forms
+method overriding // method overloading
+
+
+3.Encapsulation
+// wrapping up of data in single unit
+
+wrap a data in capsule form?
+
+ex - car while we know how to drive but we don't care how engine works and shifting of gears
+ex - getter/setter
+
+4.Abstraction
+
+Hiding the details
+and showing the actual functionality
+
+ex- car
+
+Abstract classes
+it showing whatever relevant to you
+interfaces
