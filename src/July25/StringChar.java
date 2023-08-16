@@ -9,5 +9,6 @@ public class StringChar {
         }
         System.out.println(" ");
         System.out.println(s1.charAt(3));
+
     }
 }

@@ -9,9 +9,9 @@ public class StringDemo {
     public static void main(String[] args) {
         String s1 ="Pragra"; // literal - the way of creating string
         System.out.println(s1);
-
         String s2 =new String("Pragra");
         System.out.println(s2);
+
 
         // as we create a string using new keyword it creates new object even if it same with different memory address
         // if we create the string as s1="Gur" then it will refer to same if string if the word is same

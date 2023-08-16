@@ -11,6 +11,7 @@ public class ImmutableString {
         System.out.println(s1.equals(s2));
         System.out.println(s1.equals(s3)); // Check the content only
         System.out.println(s1.equals(s4));
+        System.out.println(s1.equalsIgnoreCase(s2));
         // interview question
     }
 }

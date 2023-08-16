@@ -10,6 +10,7 @@ public class Car {
         return colour = colour;
     }
     public String getColor(){
+
         return colour;
     }
     public String setBrand(String Brand){

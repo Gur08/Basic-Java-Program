@@ -17,7 +17,7 @@ public class Student {
         Student student =new Student();
         student.name ="Peter";
         student.age=25;
-     //  System.out.println(student.age+" "+student.name);
+//       System.out.println(student.age+" "+student.name);
         System.out.println(student);
     }
 }

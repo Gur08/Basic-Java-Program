@@ -11,7 +11,8 @@ public class StringMethodsPractice {
     }
 
     public void setId(int id) {
-        this.id = id;
+
+       this.id = id;
     }
 
     public String getName() {
@@ -47,6 +48,7 @@ this --- refeer to the current class object/instance variable
 class Main{
     public static void main(String[] args) {
         StringMethodsPractice sc =new StringMethodsPractice();
+        System.out.println(sc.getId());
         sc.setId(102);
         System.out.println(sc.getId());
 

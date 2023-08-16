@@ -1,9 +1,9 @@
 package  August05;
 
 public class InheritanceWithConstructor {
-    //Laptop
-    String brandName;
-    String processor;
+        //Laptop
+        String brandName;
+        String processor;
 
     public InheritanceWithConstructor(String brandName, String processor) {
         this.brandName = brandName;

@@ -1,15 +1,18 @@
 package July29;
 
 public class Laptop {
+
+    // Getter and Setter
     //constructor demo
     private String brandName;
     private String operatingSystem;
     private double price;
 
+
     // constructor name has same as class name
     //constructor is something which initializes the object
     public Laptop(){     // default constructor
-
+        System.out.println("Default Constructor");
     }
 
     public Laptop(String brandName) {
@@ -21,6 +24,7 @@ public class Laptop {
     }
 
     public Laptop(String brandName, String operatingSystem, double price) {
+        this();
         this.brandName = brandName;
         this.operatingSystem = operatingSystem;
         this.price = price;
@@ -40,9 +44,9 @@ public class Laptop {
 }
 class LaptopMain{
     public static void main(String[] args) {
-        System.out.println(new Laptop());
-        System.out.println(new Laptop("Mac"));
-        System.out.println(new Laptop("Mac","Window"));
-        System.out.println(new Laptop("Mac","Window",1400.2));
+//        System.out.println(new Laptop());
+//        System.out.println(new Laptop("Mac"));
+//        System.out.println(new Laptop("Mac","Window"));
+        System.out.println(new Laptop("Lenovo","Window",1400.2));
     }
 }
