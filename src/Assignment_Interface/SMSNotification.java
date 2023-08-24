@@ -1,6 +1,6 @@
 package Assignment_Interface;
 
 public interface SMSNotification {
-    void phoneNumbers();
+    String phoneNumbers();
     void SmsNotification();
 }

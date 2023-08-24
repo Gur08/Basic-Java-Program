@@ -12,8 +12,8 @@ public class Phone implements SMSNotification,EmailNotification,PushNotification
     }
 
     @Override
-    public String sendNotification(String x) {
-        System.out.println(x);
+    public String sendNotification() {
+        String x ="Notification send out";
        return x;
     }
 
@@ -22,9 +22,11 @@ public class Phone implements SMSNotification,EmailNotification,PushNotification
         System.out.println("Device Notification Send");
     }
 
+
     @Override
-    public void phoneNumbers() {
-        System.out.println("Phone no is ");
+    public String phoneNumbers() {
+       String x="5149148131";
+        return x;
     }
 
     @Override

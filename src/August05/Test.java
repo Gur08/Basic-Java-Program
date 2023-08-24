@@ -17,11 +17,12 @@ public class Test {
 }
 class TestMain{
     public static void main(String[] args) {
-       /* Test test=new Test();
+        /*Test test=new Test();
         System.out.println(test);
         Test test1=new Test();
         System.out.println(test1);*/
 
-        System.out.println(Test.methodstatic());
+        System.out.println(Test.methodstatic().name="Gurpreet");
+
     }
 }

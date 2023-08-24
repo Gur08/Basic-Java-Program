@@ -2,9 +2,11 @@ package Assignment_Interface;
 
 public class SMSNotificationSender implements SMSNotification{
 
+
     @Override
-    public void phoneNumbers() {
-        System.out.println("");
+    public String phoneNumbers() {
+      String  x="5149148131";
+        return x;
     }
 
     @Override

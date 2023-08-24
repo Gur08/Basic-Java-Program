@@ -1,0 +1,15 @@
+Packages ----->  reason for uniquess of class name
+
+there are some inbuilt package in Java.
+lang package is available to all the packages.----> that the reason why we are able to use the system class
+without importing any package
+
+
+Access Modifier
+- Private
+- Protected
+- public
+- default --> if we not mentioned the access modifier (Cannot access outside the package and
+outside package with subclass)
+
+-
