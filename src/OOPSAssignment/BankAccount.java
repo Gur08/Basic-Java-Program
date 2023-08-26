@@ -11,6 +11,20 @@ public abstract class BankAccount implements TransactionLog {
         this.balance = balance;
     }
 
+    public BankAccount(int accountNumber, String accountHolderName) {
+        this.accountNumber = accountNumber;
+        this.accountHolderName = accountHolderName;
+    }
+
+    public BankAccount(String accountHolderName, Double balance) {
+        this.accountHolderName = accountHolderName;
+        this.balance = balance;
+    }
+
+    public BankAccount(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
     public int getAccountNumber() {
         return accountNumber;
     }
@@ -28,4 +42,11 @@ public abstract class BankAccount implements TransactionLog {
     }
 
     public abstract void performTransaction(double amount);
+
+    public final static void newAccountNo(int accountNumber){
+        int nextAccountNo = accountNumber+1;
+        System.out.println("The next avai;able account :"+nextAccountNo);
+    }
+
+
 }

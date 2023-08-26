@@ -18,6 +18,7 @@ class Bank{
 
 class InsufficientBalanceException extends Exception{
     public InsufficientBalanceException(String InsufficientBalanceException) {
+        super(InsufficientBalanceException);
     }
 }
 public class CustomException_Throw {
