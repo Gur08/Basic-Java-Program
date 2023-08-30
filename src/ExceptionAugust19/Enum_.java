@@ -56,23 +56,23 @@ class OnlinePayment {
 //            switch (str){
 //                case
 //        }
-//        Enum_.methods();
-//        Enum_[] arr = Enum_.values();
-//        for (Enum_ n : arr) {
-//            switch (n) {
-//                case CREDITCARD:
-//                    System.out.println("Enter Creditcard Details");
-//                    break;
-//                case DEBITCARD:
-//                    System.out.println("Enter Debitcard Details");
-//                    break;
-//                case MASTERCARD:
-//                    System.out.println("Enter Mastercard Details");
-//                    break;
-//                case PAYPAL:
-//                    System.out.println("Enter Paypal Details");
-//                    break;
-//            }
-//        }
+        Enum_.methods();
+        Enum_[] arr = Enum_.values();
+        for (Enum_ n : arr) {
+            switch (n) {
+                case CREDITCARD:
+                    System.out.println("Enter Creditcard Details");
+                    break;
+                case DEBITCARD:
+                    System.out.println("Enter Debitcard Details");
+                    break;
+                case MASTERCARD:
+                    System.out.println("Enter Mastercard Details");
+                    break;
+                case PAYPAL:
+                    System.out.println("Enter Paypal Details");
+                    break;
+            }
+        }
     }
 }
