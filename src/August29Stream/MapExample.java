@@ -9,14 +9,15 @@ import java.util.stream.Stream;
 
 public class MapExample {
     public static void main(String[] args) {
-        List<Integer> nums = Arrays.asList(1,25,35,85,25,26,4,7,5);
-        List<Integer> productOf2 =nums.stream().map(x -> x*2).collect(Collectors.toList());
-        System.out.println(productOf2);
+//        List<Integer> nums = Arrays.asList(1,25,35,85,25,26,4,7,5);
+//        List<Integer> productOf2 =nums.stream().map(x -> x*2).collect(Collectors.toList());
+//        System.out.println(productOf2);
         List<String> names = Arrays.asList("Peter","Mike","John","Jane","Dan","Jennifer");
         List<String> upperCase=names.stream().map(x -> x.toUpperCase()).collect(Collectors.toList());
         System.out.println(upperCase);
         Stream<String> stringStream = names.stream().map(x -> x.toUpperCase());
-//        IntStream intStream = names.stream().mapToInt(x -> x.toUpperCase());
+        IntStream intStream = names.stream().mapToInt(x -> x.length());
+      intStream.forEach(System.out::println);
 
 
 

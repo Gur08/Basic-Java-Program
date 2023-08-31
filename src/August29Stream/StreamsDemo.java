@@ -12,9 +12,10 @@ public class StreamsDemo {
                 System.out.println(" "+newList);
             }
         }
-        list.stream().filter(x -> x%2==0).forEach(x -> System.out.println(x));
+        list.stream().filter(x -> x%2==0).forEach(System.out::println); //Method Reference intro--> If we want to call a function under a class we used thread operator (::)
+        // or semi-colon opertor like here we are refering print function in system class
         // method reference --> :: --- access method inside the class
         List<Integer>oddNumber =list.stream().filter(x -> x%2 ==0).collect(Collectors.toList());
-        System.out.println(oddNumber);
+        System.out.println("\n"+oddNumber);
     }
 }
