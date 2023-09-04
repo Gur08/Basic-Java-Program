@@ -18,9 +18,7 @@ public class Problem1 {
         System.out.println("Number of strings start with S are : "+count1);
         System.out.println("List before removing empty strings : \n"+strList);
         System.out.println(strList.stream().filter(x -> !x.isEmpty()).collect(Collectors.toList()));
-
-//
-//        System.out.println("List After removing empty strings : "+Arrays.asList());
+       strList.remove("Pragra");
 
 List<String>list= new ArrayList<>();
 list.add("Coding");
@@ -31,5 +29,8 @@ list.add("Practicing");
         System.out.println("After converting to uppercase : \n"+collect1);
         list.remove("Coding");
         System.out.println(list);
+
+         System.out.println(strList);
+
     }
 }
