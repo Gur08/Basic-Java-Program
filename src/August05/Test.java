@@ -23,6 +23,5 @@ class TestMain{
         System.out.println(test1);*/
 
         System.out.println(Test.methodstatic().name="Gurpreet");
-
     }
 }
